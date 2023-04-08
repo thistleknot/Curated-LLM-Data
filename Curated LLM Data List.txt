@@ -11,8 +11,14 @@ Data:
 	arxiv abstracts
 	investopedia
 	quotes
+		ex.
+			https://graciousquotes.com/carl-jung/
+		brainyquote.com
+		www.goodreads.com/quotes
 	lyrics to popular songs (top 100 billboard per year)
+		genius
 	front page news stories
+		newspaperarchive.com
 	ted talk abstracts
 	book summaries (reviews?) (ideally would be reports, essays, exposes' rather than 'this book was good or bad')
 	interesting fact a day sources
