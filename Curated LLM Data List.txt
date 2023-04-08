@@ -19,6 +19,13 @@ Data:
 		genius
 	front page news stories
 		newspaperarchive.com
+		
+		use a similar concept on top voted reddit posts from select communities
+		e.x.
+			news
+			askphilosophy
+			scrape top level comments and descend 3 deep?
+			academic biblical
 	ted talk abstracts
 	book summaries (reviews?) (ideally would be reports, essays, exposes' rather than 'this book was good or bad')
 	interesting fact a day sources
