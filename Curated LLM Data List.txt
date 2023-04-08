@@ -1,6 +1,5 @@
-quotes
-	websites:
-	
+Data:
+
 	wikitext-v2
 	alpaca 52k
 	newsgroup artaicles
@@ -12,7 +11,8 @@ quotes
 	arxiv abstracts
 	investopedia
 	quotes
-	
+
 Quantize as a knowledge graph for dense passage retrieval
 
 Generative Questions (Text to question models)
+
