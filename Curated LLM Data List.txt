@@ -1,0 +1,18 @@
+quotes
+	websites:
+	
+	wikitext-v2
+	alpaca 52k
+	newsgroup artaicles
+	programming examples (w3schools)
+		use condorcet voting to track which examples should go in
+	merck manual medical diagnosis information
+		use condorcet voting to track which examples should go in
+		Start with choice examples
+	arxiv abstracts
+	investopedia
+	quotes
+	
+Quantize as a knowledge graph for dense passage retrieval
+
+Generative Questions (Text to question models)
