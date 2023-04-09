@@ -10,11 +10,15 @@ Data:
 		Start with choice examples
 	arxiv abstracts
 	investopedia
+	science facts
+		https://huggingface.co/datasets/sciq
 	quotes
 		ex.
 			https://graciousquotes.com/carl-jung/
 		brainyquote.com
 		www.goodreads.com/quotes
+		https://huggingface.co/datasets/A-Roucher/english_historical_quotes
+		https://huggingface.co/datasets/Abirate/english_quotes
 	lyrics to popular songs (top 100 billboard per year)
 		genius
 	front page news stories
