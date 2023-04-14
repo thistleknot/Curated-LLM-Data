@@ -1,7 +1,9 @@
 Data:
 
-	wikitext-v2
+	wikitext-v3
 	alpaca 52k
+	Dolly 15k
+	https://github.com/databrickslabs/dolly/tree/master/data
 	newsgroup articles
 	programming examples (w3schools)
 		use condorcet voting to track which examples should be tracked
