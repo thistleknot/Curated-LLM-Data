@@ -5,8 +5,13 @@ Data:
 	Dolly 15k
 	https://github.com/databrickslabs/dolly/tree/master/data
 	newsgroup articles
+	regex statements
 	programming examples (w3schools)
 		use condorcet voting to track which examples should be tracked
+		
+		just python
+		
+		machine learning
 	merck manual medical diagnosis information
 		use condorcet voting to track which examples should be tracked
 		Start with choice examples
@@ -49,3 +54,6 @@ Quantize as a knowledge graph for dense passage retrieval
 
 Generative Questions (Text to question models)
 
+The more comprehensive the prompt's crossover is with other idea's and concepts, the faster the model will generalize across large domains of knowledge because it will make connections between disparate nodes.
+
+So try to pick concepts that are not correlated with other as well as those that are.  I'd say a nice 50/50 mix.  Imagine markowitz profile, the goal is find the best fit (regression mean fit) with minimimal error (risk).
