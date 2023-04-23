@@ -1,0 +1,744 @@
+{
+  "name": "New undefined Dataset",
+  "interface": {
+    "type": "text_entity_relations",
+    "entityLabels": [
+      {
+        "id": "subject",
+        "displayName": "",
+        "description": ""
+      },
+      {
+        "id": "modifier",
+        "displayName": "",
+        "description": ""
+      },
+      {
+        "id": "action"
+      },
+      {
+        "id": "object"
+      },
+      {
+        "id": "na"
+      }
+    ],
+    "relationLabels": [
+      {
+        "id": "connects",
+        "displayName": ""
+      }
+    ]
+  },
+  "samples": [
+    {
+      "_id": "syt5a1i0f",
+      "document": "John works at Google in California.",
+      "annotation": {
+        "entities": [
+          {
+            "text": "John",
+            "textId": "e7sfxn",
+            "label": "subject",
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "works",
+            "textId": "wax5hk",
+            "label": "action",
+            "start": 5,
+            "end": 9
+          },
+          {
+            "text": "at",
+            "textId": "iwqjh7",
+            "label": "na",
+            "start": 11,
+            "end": 12
+          },
+          {
+            "text": "Google",
+            "textId": "nk1q88",
+            "label": "object",
+            "start": 14,
+            "end": 19
+          },
+          {
+            "text": "in",
+            "textId": "p5v349",
+            "label": "na",
+            "start": 21,
+            "end": 22
+          },
+          {
+            "text": "California",
+            "textId": "x97znu",
+            "label": "object",
+            "start": 24,
+            "end": 33
+          }
+        ],
+        "relations": [
+          {
+            "from": "e7sfxn",
+            "to": "wax5hk",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "wax5hk",
+            "to": "nk1q88",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "nk1q88",
+            "to": "x97znu",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "e7sfxn",
+            "to": "x97znu",
+            "label": "connects",
+            "color": "#d32f2f"
+          }
+        ]
+      },
+      "brush": "complete"
+    },
+    {
+      "_id": "sevq3c8fv",
+      "document": "Mary lives in Paris and works for Microsoft.",
+      "annotation": {
+        "entities": [
+          {
+            "text": "Mary",
+            "textId": "453a1v",
+            "label": "subject",
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "lives",
+            "textId": "2244xm",
+            "label": "action",
+            "start": 5,
+            "end": 9
+          },
+          {
+            "text": "in",
+            "textId": "0btp9u",
+            "label": "na",
+            "start": 11,
+            "end": 12
+          },
+          {
+            "text": "Paris",
+            "textId": "tsz4uo",
+            "label": "object",
+            "start": 14,
+            "end": 18
+          },
+          {
+            "text": "and",
+            "textId": "5v8s2e",
+            "label": "na",
+            "start": 20,
+            "end": 22
+          },
+          {
+            "text": "works",
+            "textId": "f4v2oa",
+            "label": "action",
+            "start": 24,
+            "end": 28
+          },
+          {
+            "text": "for",
+            "textId": "76jywb",
+            "label": "na",
+            "start": 30,
+            "end": 32
+          },
+          {
+            "text": "Microsoft",
+            "textId": "q1s3ib",
+            "label": "object",
+            "start": 34,
+            "end": 42
+          }
+        ],
+        "relations": [
+          {
+            "from": "453a1v",
+            "to": "2244xm",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "2244xm",
+            "to": "tsz4uo",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "453a1v",
+            "to": "f4v2oa",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "f4v2oa",
+            "to": "q1s3ib",
+            "label": "connects",
+            "color": "#d32f2f"
+          }
+        ]
+      },
+      "brush": "complete"
+    },
+    {
+      "_id": "sww09zrme",
+      "document": "The Eiffel Tower is located in France.",
+      "annotation": {
+        "entities": [
+          {
+            "text": "The",
+            "textId": "hjhypg",
+            "label": "na",
+            "start": 0,
+            "end": 2
+          },
+          {
+            "text": "Eiffel",
+            "textId": "gvk2hi",
+            "label": "modifier",
+            "start": 4,
+            "end": 9
+          },
+          {
+            "text": "Tower",
+            "textId": "fgbtao",
+            "label": "object",
+            "start": 11,
+            "end": 15
+          },
+          {
+            "text": "is",
+            "textId": "grhh7o",
+            "label": "na",
+            "start": 17,
+            "end": 18
+          },
+          {
+            "text": "located",
+            "textId": "yzad4h",
+            "label": "action",
+            "start": 20,
+            "end": 26
+          },
+          {
+            "text": "in",
+            "textId": "fmuka8",
+            "label": "na",
+            "start": 28,
+            "end": 29
+          },
+          {
+            "text": "France",
+            "textId": "dq2l5w",
+            "label": "object",
+            "start": 31,
+            "end": 36
+          }
+        ],
+        "relations": [
+          {
+            "from": "gvk2hi",
+            "to": "fgbtao",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "fgbtao",
+            "to": "yzad4h",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "yzad4h",
+            "to": "dq2l5w",
+            "label": "connects",
+            "color": "#d32f2f"
+          }
+        ]
+      },
+      "brush": "complete"
+    },
+    {
+      "_id": "szur2869m",
+      "document": "Paris is located in France.",
+      "annotation": {
+        "entities": [
+          {
+            "text": "Paris",
+            "textId": "vanmkg",
+            "label": "subject",
+            "start": 0,
+            "end": 4
+          },
+          {
+            "text": "is",
+            "textId": "x2v0fg",
+            "label": "na",
+            "start": 6,
+            "end": 7
+          },
+          {
+            "text": "located",
+            "textId": "9upj14",
+            "label": "action",
+            "start": 9,
+            "end": 15
+          },
+          {
+            "text": "in",
+            "textId": "fgp2li",
+            "label": "na",
+            "start": 17,
+            "end": 18
+          },
+          {
+            "text": "France",
+            "textId": "j5bw3w",
+            "label": "object",
+            "start": 20,
+            "end": 25
+          }
+        ],
+        "relations": [
+          {
+            "from": "vanmkg",
+            "to": "9upj14",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "9upj14",
+            "to": "j5bw3w",
+            "label": "connects",
+            "color": "#d32f2f"
+          }
+        ]
+      },
+      "brush": "complete"
+    },
+    {
+      "_id": "sob0njla6",
+      "document": "John experienced an earthquake.",
+      "annotation": {
+        "entities": [
+          {
+            "text": "John",
+            "textId": "14aq5z",
+            "label": "subject",
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "experienced",
+            "textId": "i0ob4f",
+            "label": "action",
+            "start": 5,
+            "end": 15
+          },
+          {
+            "text": "an",
+            "textId": "gpxoda",
+            "label": "na",
+            "start": 17,
+            "end": 18
+          },
+          {
+            "text": "earthquake",
+            "textId": "8gdrhh",
+            "label": "object",
+            "start": 20,
+            "end": 29
+          }
+        ],
+        "relations": [
+          {
+            "from": "14aq5z",
+            "to": "i0ob4f",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "i0ob4f",
+            "to": "8gdrhh",
+            "label": "connects",
+            "color": "#d32f2f"
+          }
+        ]
+      },
+      "brush": "complete"
+    },
+    {
+      "_id": "sz8w7gmdj",
+      "document": "When Jenny is depressed she likes to go shopping at the mall.",
+      "annotation": {
+        "entities": [
+          {
+            "text": "When",
+            "textId": "pflxhp",
+            "label": "modifier",
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "Jenny",
+            "textId": "3z6gsr",
+            "label": "subject",
+            "start": 5,
+            "end": 9
+          },
+          {
+            "text": "is",
+            "textId": "zm2u4g",
+            "label": "na",
+            "start": 11,
+            "end": 12
+          },
+          {
+            "text": "depressed",
+            "textId": "47a2e8",
+            "label": "modifier",
+            "start": 14,
+            "end": 22
+          },
+          {
+            "text": "she",
+            "textId": "8fajvj",
+            "label": "na",
+            "start": 24,
+            "end": 26
+          },
+          {
+            "text": "likes",
+            "textId": "v4asqe",
+            "label": "modifier",
+            "start": 28,
+            "end": 32
+          },
+          {
+            "text": "to",
+            "textId": "t6bzld",
+            "label": "na",
+            "start": 34,
+            "end": 35
+          },
+          {
+            "text": "go",
+            "textId": "ioouo9",
+            "label": "na",
+            "start": 37,
+            "end": 38
+          },
+          {
+            "text": "shopping",
+            "textId": "uremng",
+            "label": "action",
+            "start": 40,
+            "end": 47
+          },
+          {
+            "text": "at",
+            "textId": "azhu5l",
+            "label": "na",
+            "start": 49,
+            "end": 50
+          },
+          {
+            "text": "the",
+            "textId": "klptzl",
+            "label": "na",
+            "start": 52,
+            "end": 54
+          },
+          {
+            "text": "mall",
+            "textId": "703bve",
+            "label": "object",
+            "start": 56,
+            "end": 59
+          }
+        ],
+        "relations": [
+          {
+            "from": "pflxhp",
+            "to": "3z6gsr",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "3z6gsr",
+            "to": "47a2e8",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "47a2e8",
+            "to": "v4asqe",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "v4asqe",
+            "to": "uremng",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "uremng",
+            "to": "703bve",
+            "label": "connects",
+            "color": "#d32f2f"
+          }
+        ]
+      },
+      "brush": "complete"
+    },
+    {
+      "_id": "sjmfaiz3s",
+      "document": "John bought a new car.",
+      "annotation": {
+        "entities": [
+          {
+            "text": "John",
+            "textId": "jf0rpu",
+            "label": "subject",
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "bought",
+            "textId": "p387k4",
+            "label": "action",
+            "start": 5,
+            "end": 10
+          },
+          {
+            "text": "a",
+            "textId": "ytnqzh",
+            "label": "na",
+            "start": 12,
+            "end": 12
+          },
+          {
+            "text": "new",
+            "textId": "bw3qww",
+            "label": "modifier",
+            "start": 14,
+            "end": 16
+          },
+          {
+            "text": "car",
+            "textId": "ikkpu4",
+            "label": "object",
+            "start": 18,
+            "end": 20
+          }
+        ],
+        "relations": [
+          {
+            "from": "jf0rpu",
+            "to": "p387k4",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "p387k4",
+            "to": "bw3qww",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "bw3qww",
+            "to": "ikkpu4",
+            "label": "connects",
+            "color": "#d32f2f"
+          }
+        ]
+      },
+      "brush": "complete"
+    },
+    {
+      "_id": "sswc7wcff",
+      "document": "This strainer makes a great hat, I'll wear it while I serve spaghetti!",
+      "annotation": {
+        "entities": [
+          {
+            "text": "This",
+            "textId": "xuh8d9",
+            "label": "na",
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "strainer",
+            "textId": "9eo5ld",
+            "label": "subject",
+            "start": 5,
+            "end": 12
+          },
+          {
+            "text": "makes",
+            "textId": "w2lhfc",
+            "label": "action",
+            "start": 14,
+            "end": 18
+          },
+          {
+            "text": "a",
+            "textId": "gkk2cm",
+            "label": "na",
+            "start": 20,
+            "end": 20
+          },
+          {
+            "text": "great",
+            "textId": "rg3d0w",
+            "label": "modifier",
+            "start": 22,
+            "end": 26
+          },
+          {
+            "text": "hat",
+            "textId": "i97k2i",
+            "label": "object",
+            "start": 28,
+            "end": 30
+          },
+          {
+            "text": "I",
+            "textId": "b71wyw",
+            "label": "subject",
+            "start": 33,
+            "end": 33
+          },
+          {
+            "text": "'",
+            "textId": "wjid2k",
+            "label": "na",
+            "start": 34,
+            "end": 34
+          },
+          {
+            "text": "ll",
+            "textId": "2ofzla",
+            "label": "na",
+            "start": 35,
+            "end": 36
+          },
+          {
+            "text": "wear",
+            "textId": "4u7hzp",
+            "label": "action",
+            "start": 38,
+            "end": 41
+          },
+          {
+            "text": "it",
+            "textId": "4jbv39",
+            "label": "na",
+            "start": 43,
+            "end": 44
+          },
+          {
+            "text": "while",
+            "textId": "ujdufm",
+            "label": "modifier",
+            "start": 46,
+            "end": 50
+          },
+          {
+            "text": "I",
+            "textId": "f3xuue",
+            "label": "na",
+            "start": 52,
+            "end": 52
+          },
+          {
+            "text": "serve",
+            "textId": "7e3r7x",
+            "label": "action",
+            "start": 54,
+            "end": 58
+          },
+          {
+            "text": "spaghetti",
+            "textId": "ubbmle",
+            "label": "object",
+            "start": 60,
+            "end": 68
+          },
+          {
+            "text": "!",
+            "textId": "b38nep",
+            "label": "na",
+            "start": 69,
+            "end": 69
+          }
+        ],
+        "relations": [
+          {
+            "from": "9eo5ld",
+            "to": "w2lhfc",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "w2lhfc",
+            "to": "rg3d0w",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "rg3d0w",
+            "to": "i97k2i",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "b71wyw",
+            "to": "4u7hzp",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "4u7hzp",
+            "to": "ujdufm",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "ujdufm",
+            "to": "7e3r7x",
+            "label": "connects",
+            "color": "#d32f2f"
+          },
+          {
+            "from": "7e3r7x",
+            "to": "ubbmle",
+            "label": "connects",
+            "color": "#d32f2f"
+          }
+        ]
+      },
+      "brush": "complete"
+    }
+  ]
+}
