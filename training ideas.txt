@@ -1,0 +1,7 @@
+Process
+
+Continue training GPT-Neo on quotes
+
+Fine-tune on squad.
+
+Ask questions of quotes.

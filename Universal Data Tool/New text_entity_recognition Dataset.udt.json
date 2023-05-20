@@ -1,5 +1,5 @@
 {
-  "name": "New undefined Dataset",
+  "name": "New text_entity_recognition Dataset.udt.json",
   "interface": {
     "type": "text_entity_relations",
     "entityLabels": [
@@ -623,6 +623,13 @@
             "end": 30
           },
           {
+            "text": ", ",
+            "textId": "s97pkt",
+            "label": "na",
+            "start": 31,
+            "end": 32
+          },
+          {
             "text": "I",
             "textId": "b71wyw",
             "label": "subject",
@@ -740,5 +747,6 @@
       },
       "brush": "complete"
     }
-  ]
+  ],
+  "filePath": "New text_entity_recognition Dataset.udt.json"
 }
